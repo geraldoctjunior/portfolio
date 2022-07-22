@@ -11,9 +11,9 @@
     --fonte-padrao: 'Poppins', sans-serif;
 }
 
-*{
+* {
     margin: 0px;
-    padding: 0px,;
+    padding: 0px, ;
 }
 
 ul {
@@ -106,9 +106,9 @@ section img.trabalhos {
     box-sizing: border-box;
 }
 
-section img.trabalhos:hover {
-    border: 2px solid rgb(255, 255, 255);
-}
+/*section img.trabalhos:hover{
+    border: 2px solid white;
+}*/
 
 footer {
     background-color: var(--cor5);
