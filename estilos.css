@@ -57,10 +57,10 @@ header nav.navegador .lista-do-navegador .item:hover {
     border-radius: 5px;
 }
 
-section.home {
+section.home p{
     margin: 20px;
     padding: 30px;
-    font-size: 50px;
+    font-size: 70px;
     align-items: center;
     text-align: center;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.39);
