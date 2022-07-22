@@ -99,14 +99,14 @@ section.projetos {
     max-width: 1300px;
 }
 
-section img.trabalhos {
+section.projetos img.trabalhos {
     margin: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.356);
     box-sizing: border-box;
 }
 
-/*section img.trabalhos:hover{
+/*section.projetos img.trabalhos:hover{
     border: 2px solid white;
 }*/
 
