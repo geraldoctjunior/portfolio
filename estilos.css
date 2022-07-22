@@ -11,10 +11,9 @@
     --fonte-padrao: 'Poppins', sans-serif;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
+*{
+    margin: 0px;
+    padding: 0px,;
 }
 
 ul {
@@ -77,9 +76,7 @@ section.sobre {
     max-width: 1300px;
 }
 
-section div.imagem-linguagem {
-
-}
+section div.imagem-linguagem {}
 
 section div img.minha-foto {
     margin: 30px;
@@ -92,23 +89,25 @@ section p {
     padding-left: 100px;
 }
 
-section div img.logo-linguagens {
-    width: 60px;
-    width: 60px;
-    margin: 10px;
-    border-radius: 50%;
-}
 
 section.projetos {
     margin: auto;
-    padding: 30px;
     align-items: center;
     text-align: center;
+    justify-content: center;
+    padding: 30px;
     max-width: 1300px;
 }
-section img.trabalhos{
+
+section img.trabalhos {
     margin: 10px;
     border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.356);
+    box-sizing: border-box;
+}
+
+section img.trabalhos:hover {
+    border: 2px solid rgb(255, 255, 255);
 }
 
 footer {
@@ -122,26 +121,40 @@ footer {
     padding: 20px;
 }
 
-.contatos {
+footer ul.logos-contatos {
     display: flex;
     margin: auto;
     padding: 10px;
 }
 
-.contatos .icone img {
+footer ul.logos-contatos .icone img {
     width: 60px;
     margin: 10px;
     border-radius: 50%;
     box-sizing: border-box;
 }
 
-.contatos .icone img:hover {
+footer ul.logos-contatos .icone img:hover {
     transform: translate(0px, -4px);
     transition: transform .3s;
     border: 2px solid white;
 }
 
-.roda-pe {
+footer h2.roda-pe {
     padding: 10px;
     font-size: 20px;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #313131;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--cor2);
+    border-radius: 35px;
 }
